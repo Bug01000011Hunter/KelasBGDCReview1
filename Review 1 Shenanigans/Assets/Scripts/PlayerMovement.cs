@@ -21,13 +21,15 @@ public class PlayerMovement : MonoBehaviour
     {
         if (!canMove) return;
         Vector2 input;
+
         input.x = Input.GetAxisRaw("Horizontal");
         input.y = Input.GetAxisRaw("Vertical");
         input.Normalize();
+
         if (input != Vector2.zero)
         {
             lastDirection = input;
-        }
+        }  // direction
         if (Input.GetKeyDown(KeyCode.Space))
         {
             canMove = false;
@@ -36,8 +38,9 @@ public class PlayerMovement : MonoBehaviour
             StartCoroutine(DelayDash());
 
             return;
-        }
-        rb.velocity = input * speed;
+        } //dash
+
+        rb.velocity = input * speed;  // movement
     }
     IEnumerator DelayDash()
     {

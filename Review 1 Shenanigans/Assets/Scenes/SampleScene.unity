@@ -17167,6 +17167,43 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &902667445 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5970665490094162437, guid: d1914c4c01af29d4db11b30708f32336,
+    type: 3}
+  m_PrefabInstance: {fileID: 4880530401999977091}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &902667451
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902667445}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5f11293591ce5b44f9c1f9f0981ca26e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &902667452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902667445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3327ecaafe900b4ab135c8396996aad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1352627373
 GameObject:
   m_ObjectHideFlags: 0
@@ -17280,6 +17317,32 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 125846068166897927, guid: d1914c4c01af29d4db11b30708f32336,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 125846068166897927, guid: d1914c4c01af29d4db11b30708f32336,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 125846068166897927, guid: d1914c4c01af29d4db11b30708f32336,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 125846068166897927, guid: d1914c4c01af29d4db11b30708f32336,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0f39a9205e4394ee1b6ba8269428d176,
+        type: 3}
+    - target: {fileID: 125846068166897927, guid: d1914c4c01af29d4db11b30708f32336,
+        type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1340094108988243713, guid: d1914c4c01af29d4db11b30708f32336,
         type: 3}
       propertyPath: m_Constraints
@@ -17289,6 +17352,11 @@ PrefabInstance:
         type: 3}
       propertyPath: shootForce
       value: 5.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 1663862907555052779, guid: d1914c4c01af29d4db11b30708f32336,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2304179669896455419, guid: d1914c4c01af29d4db11b30708f32336,
         type: 3}
